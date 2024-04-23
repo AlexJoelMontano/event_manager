@@ -117,6 +117,8 @@ contents.each do |row|
 
   last_name = row[:last_name]
 
+  email = row[:email_address]
+
   phone = clean_phones(array_phones(parenthesis_phones(row[:phone])))
 
   id = row[0]
